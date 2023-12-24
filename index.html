@@ -5,14 +5,23 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+   <style>
+      h1, h2, h3, h4, h5, h6 {
+         font-family: 'Lobster',Arial, Helvetica, sans-serif;
+      }
+      body{
+         font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+   
 </head>
 <body>
    <!-- Navbar -->
    <div class="w3-top">
-      <div class="w3-bar w3-cyan w3-card">
+      <div class="w3-bar w3-light-blue w3-card">
          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
          <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
          <!--<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">JULIETTE ROBLES</a>-->
@@ -32,7 +41,7 @@
       </div>
    </div>
    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-   <div id="navDemo" class="w3-bar-block w3-cyan w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+   <div id="navDemo" class="w3-bar-block w3-light-blue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
       <!--<a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">JULIETTE ROBLES</a>-->
       <a href="#discografia" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DISCOGRAFIA</a>
       <a href="#spotify" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SPOTIFY</a>
@@ -76,7 +85,7 @@
       </div>
       
 
-      <div class="w3-cyan" id="discografia">
+      <div class="w3-light-blue" id="discografia">
          <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
                <h2 class="w3-wide">DISCOGRAFÍA</h2>
          </div>
@@ -85,52 +94,54 @@
       <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
          <div class="w3-row w3-padding-32">
             <div class="w3-third">
-               <p>INMERSIÓN  EP</p>
-               <a href="https://open.spotify.com/album/1eEuMck9iZtZhN3bfgH1U2?si=8y8njY41TN-p9rK6aHhbuw" target="_blank"><img src="./juliette/juliette-robles-cabal.jpg" class="w3-round w3-margin-bottom" alt="INMERSIÓN" style="width:60%"></a>
-               <p>BARCELONA (2019)</p>
-            </div>
-            <div class="w3-third">
-               <p>HUBO UN TIEMPO</p>
-               <a href="https://open.spotify.com/album/3ofM9OUdWPM3vHuenrjuG9?si=a1VIE91fQNWwS6wpWWtncA" target="_blank">
-               <img src="./juliette/juliette-robles-hubountiempo.jpg" class="w3-round w3-margin-bottom" alt="HUBO UN TIEMPO" style="width:60%"></a>
-               <p>SINGLE BARCELONA (2021)</p>
-            </div>
-            <div class="w3-third">
-               <p>OÍ MI NEGRA</p>
-               <a href="https://open.spotify.com/track/0nBjHLUmkkG6ocYjEq5Ujt?si=yeW21vfvRR2QKuen5nyk1Q" target="_blank">
-               <img src="./juliette/OVITAN-CAFE_ANATOLIA.jpg" class="w3-round w3-margin-bottom" alt="OÍ MI NEGRA - CLAUDIO ARDITTI REMIX" style="width:60%"></a>
-               <p>CLAUDIO ARDITTI REMIX - CHILE (2022)</p>
-            </div>
-            <div class="w3-third">
                <p>LUNA DE LOS CARRIZALES</p>
                <a href="https://open.spotify.com/track/4SMbgp0IGD3zMkwkCPZPOm?si=ie-ptBc-Q-yFUaupROOB_Q" target="_blank">
                <img src="./juliette/lunadeloscarrizales.jpg" class="w3-round w3-margin-bottom" alt="LUNA DE LOS CARRIZALES" style="width:60%"></a>
-               <p>SINGLE BARCELONA (2021)</p>
+               <p>Sebuky (2021)</p>
             </div>
             <div class="w3-third">
                <p>INGAME EL BAMBUCO</p>
                <a href="https://open.spotify.com/track/1xvjFdUsDOtEYjARLVScjC?si=LcSNe0eUSq21TCvErkrN_g" target="_blank">
                <img src="./juliette/ingameElBambuco.jpg" class="w3-round w3-margin-bottom" alt="INGAME EL BAMBUCO" style="width:60%"></a>
-               <p>SINGLE BARCELONA (2021)</p>
+               <p>Sebuky (2021)</p>
             </div>
             <div class="w3-third">
                <p>CUMBRES</p>
                <a href="https://open.spotify.com/track/3p66gd0iTLwaFQ3ymy303s?si=Sig_aIjwQYWw5RGeqRkdTw" target="_blank">
                <img src="./juliette/cumbres.jpg" class="w3-round w3-margin-bottom" alt="CUMBRES" style="width:60%"></a>
-               <p>SINGLE BARCELONA (2021)</p>
+               <p>Sebuky (2021)</p>
             </div>
+            <div class="w3-third">
+               <p>INMERSIÓN  EP</p>
+               <a href="https://open.spotify.com/album/1eEuMck9iZtZhN3bfgH1U2?si=8y8njY41TN-p9rK6aHhbuw" target="_blank"><img src="./juliette/juliette-robles-cabal.jpg" class="w3-round w3-margin-bottom" alt="INMERSIÓN" style="width:60%"></a>
+               <p>(2019)</p>
+            </div>
+            <div class="w3-third">
+               <p>HUBO UN TIEMPO</p>
+               <a href="https://open.spotify.com/album/3ofM9OUdWPM3vHuenrjuG9?si=a1VIE91fQNWwS6wpWWtncA" target="_blank">
+               <img src="./juliette/juliette-robles-hubountiempo.jpg" class="w3-round w3-margin-bottom" alt="HUBO UN TIEMPO" style="width:60%"></a>
+               <p>(2021)</p>
+            </div>
+            <div class="w3-third">
+               <p>OÍ MI NEGRA</p>
+               <a href="https://open.spotify.com/track/0nBjHLUmkkG6ocYjEq5Ujt?si=yeW21vfvRR2QKuen5nyk1Q" target="_blank">
+               <img src="./juliette/OVITAN-CAFE_ANATOLIA.jpg" class="w3-round w3-margin-bottom" alt="OÍ MI NEGRA - CLAUDIO ARDITTI REMIX" style="width:60%"></a>
+               <p>CLAUDIO ARDITTI REMIX (2022)</p>
+            </div>
+
+            
          </div>
       </div> 
 
-      <div class="w3-container w3-content w3-center w3-padding-64" id="spotify">
-         <h2 class="w3-wide">SPOTIFY</h2>
+      <div class="w3-container w3-content w3-center w3-padding-64" >
+         <h2 class="w3-wide id=spotify">SPOTIFY</h2>
          <p class="w3-justify">
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5Gt9k74kR8BS1eKhATVobx?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
          </p>
          
       </div>
 
-      <div class="w3-cyan" id="videoclips">
+      <div class="w3-light-blue" id="videoclips">
          <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
                <h2 class="w3-wide">VIDEOCLIPS</h2>
          </div>
@@ -158,7 +169,7 @@
          </div>
       </div>
 
-       <div class="w3-cyan" id="press">
+       <div class="w3-light-blue" id="press">
          <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
                <h2 class="w3-wide">PRESS</h2>
          </div>
@@ -184,7 +195,7 @@
          </div>
       </div>
       <!--
-      <div class="w3-cyan" id="segundo">
+      <div class="w3-light-blue" id="segundo">
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
           <h2 class="w3-wide w3-center">segundo DATES</h2>
           <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
@@ -202,7 +213,7 @@
                 <p><b>New York</b></p>
                 <p class="w3-opacity">Fri 27 Nov 2016</p>
                 <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button class="w3-button w3-cyan w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                <button class="w3-button w3-light-blue w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
               </div>
             </div>
             <div class="w3-third w3-margin-bottom">
@@ -211,7 +222,7 @@
                 <p><b>Paris</b></p>
                 <p class="w3-opacity">Sat 28 Nov 2016</p>
                 <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button class="w3-button w3-cyan w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                <button class="w3-button w3-light-blue w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
               </div>
             </div>
             <div class="w3-third w3-margin-bottom">
@@ -220,7 +231,7 @@
                 <p><b>San Francisco</b></p>
                 <p class="w3-opacity">Sun 29 Nov 2016</p>
                 <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button class="w3-button w3-cyan w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                <button class="w3-button w3-light-blue w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
               </div>
             </div>
           </div>
@@ -267,7 +278,7 @@
                    </div>
                  </div>
                  <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-                 <button class="w3-button w3-cyan w3-section w3-right" type="submit">SEND</button>
+                 <button class="w3-button w3-light-blue w3-section w3-right" type="submit">SEND</button>
                </form>
             </div>-->
          </div>
